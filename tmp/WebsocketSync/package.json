@@ -1,0 +1,29 @@
+{
+  "name": "websocketsync",
+  "version": "1.0.0",
+  "description": "sync everything with websocket",
+  "main": "index.js",
+  "scripts": {
+    "build":"pack.bat",
+    "dev": "node src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NilBridge/WebsocketSync.git"
+  },
+  "keywords": [
+    "bds",
+    "websocket"
+  ],
+  "author": "NilDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NilBridge/WebsocketSync/issues"
+  },
+  "homepage": "https://github.com/NilBridge/WebsocketSync#readme",
+  "dependencies": {
+    "better-sqlite3": "^7.6.2",
+    "log4js": "^6.6.1",
+    "websocket": "^1.0.34"
+  }
+}

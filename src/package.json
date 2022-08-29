@@ -2,10 +2,10 @@
   "name": "websocketsync",
   "version": "1.0.0",
   "description": "sync everything with websocket",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "node src",
-    "watch": "onchange -i -k '**/*.js' -- npm run dev"
+    "build":"pack.bat",
+    "dev": "node src"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/NilBridge/WebsocketSync#readme",
   "dependencies": {
-    "@hapi/hapi": "^20.2.2",
-    "onchange": "^7.1.0"
+    "better-sqlite3": "^7.6.2",
+    "log4js": "^6.6.1",
+    "websocket": "^1.0.34"
   }
 }
